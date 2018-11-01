@@ -2,3 +2,54 @@
 // As example you can start by importing the _bootswatch.scss file from one of the
 // theme provided by https://bootswatch.com .
 
+
+// set root element sizes
+html{
+
+    font-size: 12px;
+
+    @media (min-width: 576px){
+        font-size: 16px;
+    }
+
+    @media (min-width: 768px){
+        font-size: 16px;
+    }
+
+    @media (min-width: 992px){
+        font-size: 16px;
+    }
+    
+    @media (min-width: 1200px){
+        font-size: 16px;
+    }
+}
+
+
+.cover-heading{
+    @media (max-width: 576px){
+        font-size: 1.8rem;
+    }
+}
+
+.entry-cv{
+
+   margin-top: 2em;
+
+   h1{
+      font-size: 1.3rem;
+   } 
+
+   h1 small{
+     font-size: 0.8em; 
+   }
+
+   h2{
+      font-size: 1rem;
+   }
+
+   h3{font-size: 0.9rem;}
+   h4{font-size: 0.8rem;}
+   p{font-size: 0.8rem;}
+}
+

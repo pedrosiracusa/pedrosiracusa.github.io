@@ -5,9 +5,16 @@
 
 // Some customization of the container class to have a better display in the guide.
 // Don't hesitate to remove it to have a standard Bootstrap behavior
-$container-max-widths: (
-  sm: 540px,
-  md: 640px,
-  lg: 690px,
-  xl: 720px
-) !default;
+// $container-max-widths: (
+//   sm: 540px,
+//   md: 640px,
+//   lg: 690px,
+//   xl: 720px
+// ) !default;
+
+
+
+// stylelint-disable value-keyword-case
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Arial", "Trebuchet MS", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-base:            $font-family-sans-serif !default;
