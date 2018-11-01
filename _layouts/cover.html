@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body class="text-center">
+
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      {%- include cover_header.html -%}
+
+      <main role="main" class="inner cover">
+      {{content}}
+      </main>
+
+      {%- include cover_footer.html -%}
+
+    </div>
+
+    {%- include endjs.html -%}
+
+  </body>
+
+</html>
