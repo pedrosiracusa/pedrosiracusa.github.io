@@ -105,3 +105,8 @@ body {
   color: rgba(255, 255, 255, .5);
 }
 
+
+
+
+/* CUSTOMIZATION */
+.nav-masthead .nav-link { color: rgba(255, 255, 255, .75); } 
