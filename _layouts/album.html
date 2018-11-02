@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    <main role="main">
+      
+      <div class="album py-5 bg-light">
+        <div class="container">
+          {{ content }}
+        </div>
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+    {%- include endjs.html -%}
+
+  </body>
+
+</html>
