@@ -35,6 +35,10 @@ header_pages:
   - "teaching/index.html"
   - "cv/index.html"
 
+
+permalink: blog/:categories/:title.html
+paginate_path: 3
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

@@ -76,3 +76,51 @@ html{
 .navbar.bg-dark{
     background-color: #3f3b66 !important;
 }
+
+
+// Posts styling
+
+.post{
+  font-family: 'Roboto', sans-serif;
+
+  ul, p, .highlighter-rouge{ margin-bottom:2em; }
+
+  h1,h2,h3,h4,h5,h6{
+     font-family: 'Lora', serif;
+      margin-bottom: 1.4em;
+      margin-top: 3em;
+      font-weight:700;
+   } 
+
+  p{ 
+    font-family: 'Lora', serif;
+    font-size: 1.3em;
+    line-height:1.7em;
+  }
+  h1{
+      font-size:3rem;
+  }
+
+
+   .post-title{margin-top:0.8em;}
+
+   .highlighter-rouge{
+     font-size: 1.1em;
+   }
+
+   .language-python{
+   }
+
+   .highlighter-rouge:not(.language-python){
+     margin-top:-2em;
+     pre.highlight{
+        background:white;
+     }
+   }
+
+   img{
+      display:block;
+      margin-left:auto;
+      margin-right:auto;
+   }
+}
