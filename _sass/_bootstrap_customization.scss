@@ -26,6 +26,11 @@ html{
 }
 
 
+p.lead{
+  font-size:1.5rem;
+}
+
+
 .cover-heading{
     @media (max-width: 576px){
         font-size: 1.8rem;
@@ -80,6 +85,33 @@ html{
 
 // Posts styling
 
+.post-preview{
+  color: $gray-600;
+
+  a:not(:hover) {color:$gray-700;}
+  a{ 
+    text-decoration:none;
+    transition: all 0.2s;
+  }
+  .post-title{ 
+    font-size: 2.5rem;
+    font-weight:700;
+    margin-top: 1.5em;
+    margin-bottom:.5em;
+  }
+  .post-desc{
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: 0 0 1em;
+    line-height: 1.3em;
+  }
+  .post-meta{
+    font-style: italic;
+    font-size: 1rem;
+  }
+
+}
+
 .post{
   font-family: 'Roboto', sans-serif;
 
@@ -90,12 +122,14 @@ html{
       margin-bottom: 1.4em;
       margin-top: 3em;
       font-weight:700;
+      color: $gray-800;
    } 
 
   p{ 
     font-family: 'Lora', serif;
-    font-size: 1.3em;
+    font-size: 1.3rem;
     line-height:1.7em;
+    color: $gray-700;
   }
   h1{
       font-size:3rem;

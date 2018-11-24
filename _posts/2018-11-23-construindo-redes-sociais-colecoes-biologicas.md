@@ -2,6 +2,7 @@
 title: Construindo redes sociais com dados de coleções biológicas
 layout: post
 author: Pedro C. de Siracusa
+desc: "Neste artigo demonstro o processo de construção dos modelos de Redes Espécie-Coletor (SCN) e  Redes de Colaboração de Coletores (CWN), usando o pacote Caryocar."
 ---
 
 

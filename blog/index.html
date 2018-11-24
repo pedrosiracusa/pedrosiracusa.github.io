@@ -1,0 +1,23 @@
+---
+layout: default
+title: Blog
+---
+
+<div class="row">
+  <div class="col-lg-8 col-md-10 mx-auto">
+
+    <h1 class="text-center display-4 mb-4">Welcome to my blog!</h1>
+    <p class="text-center lead">Here you can check some of the stuff I love writing about</p>
+
+    {% for post in site.posts %}
+    <article class="post-preview">
+      <a href="{{post.url}}">
+        <h2 class="post-title">{{post.title}}</h2>
+        <h1 class="post-desc">{{post.desc}}</h1>
+      </a>
+      <p class="post-meta">Posted by {{post.author}} on {{post.date | date: '%B %d, %Y'}}</p>
+    </article>
+    {% endfor %}
+
+  </div>
+</div>
