@@ -1,0 +1,29 @@
+# Este teste de perfil comportamental foi criado com o [talentoday](https://www.talentoday.com/en/), em 21 de Janeiro de 2019. 
+# Comunicação: Estar em contato com os outros, transmitir algo a alguém, geralmente por meio de uma forma de comunicação (escrita ou oral).
+# Gestão: Organizar e administrar algo ou alguém.
+# Ousadia: Ter coragem, audácia e ousadia de fazer algo.
+# Adaptação: A habilidade de modificar suas atitudes, pensamentos e comportamentos dependendo de novas situações, com o objetivo de se ajustar.
+# Destacar-se: A habilidade de ir além das orientações, atingir melhores performances do que foi previamente feito.)
+
+TRACO_PERSONALIDADE,          CLASSE,       SCORE(0-10) , DESC
+Facilidade em público,  COMUNICACAO,  3           , Não é sempre que você está à vontade em público. Você não se abre de maneira espontânea com desconhecidos.
+Abertura aos outros,    COMUNICACAO,  9           , Você tem uma mente aberta e empatia. Para você, é importante perguntar as opiniões dos outros.
+Diplomacia,             COMUNICACAO,  7           , Você prefere evitar conflito. Você expressa seu ponto de vista com cuidado para não ofender quem está te ouvindo.
+Persuasão,              COMUNICACAO,  3           , Não é natural você querer impor suas opiniões e persuadir outras pessoas.
+Liderança,              GESTAO,       4           , Você não é se sente confortável liderando outras pessoas.
+Responsabilidade,       GESTAO,       9           , Você se oferece para realizar novas tarefas de maneira rápida e gosta de ser considerado peça-chave no sucesso.
+Organização,            GESTAO,       3           , Você é flexível. Você conta mais com sua capacidade de se adaptar do que com uma abordagem compreensiva para obter resultados.
+Visão,                  GESTAO,       8           , Você gosta de adotar uma abordagem objetiva e chegar ao centro de um problema, ao invés de gastar tempo em tarefas que exijam que você seja detalhista.
+Autoconfiança,          OUSADIA,      3           , Às vezes, você se questiona e pode duvidar do seu potencial.
+Mente independente,     OUSADIA,      5           , Você tem suas próprias opiniões, mas continua sendo sensível a criticismo.
+Criatividade,           OUSADIA,      9           , Você evita ser convencional e estimula sua originalidade. Você gosta de estimular sua imaginação e pensar fora da caixa.
+Autonomia,              OUSADIA,      3           , Você precisa de regras específicas para o seu trabalho. Você sente segurança quando está sendo supervisionado.
+Lidar com estresse,     ADAPTACAO,    6           , Você consegue administrar seu estresse, mesmo que evite se expor à pressão.
+Responsividade,         ADAPTACAO,    8           , Você reage de maneira rápida. Você favorece ação, e não reflexão.
+Paciência,              ADAPTACAO,    5           , Você gosta de obter resultados concretos rapidamente. Apesar disso, você consegue ser paciente e olhar adiante no futuro.
+Respeito à autoridade,  ADAPTACAO,    6           , Você gosta de manter uma certa independência, mas também consegue seguir as instruções dadas por um supervisor.
+Determinação,           DESTACAR-SE,  5           , Você consegue se manter no caminho certo e é determinado a atingir seus objetivos, enquanto se adapta às dificuldades que encontra.
+Ambição,                DESTACAR-SE,  8           , Você quer subir rapidamente na cadeia profissional. Sucesso profissional é importante para você.
+Esforço no trabalho,    DESTACAR-SE,  4           , Você não é, necessariamente, motivado por períodos intensos de atividade. Você prefere trabalhar em um ritmo moderado.
+Espírito competitivo,   DESTACAR-SE,  1           , Você não gosta de competir com outras pessoas. Você não é motivado por competição e ser o melhor não é importante para você.
+
